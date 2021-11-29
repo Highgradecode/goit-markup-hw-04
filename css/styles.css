@@ -139,6 +139,8 @@ body {
 
 .contact-list .item {
     margin-right: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .contact-list .item:last-child {
@@ -161,7 +163,20 @@ body {
 .contact-list .link:focus {
     color: var(--accent-color);
 }
- 
+
+.contact-list-icon{
+    fill: var(--first-text-color);
+    margin-right: 10px;
+}
+
+.contact-list-icon:hover,
+
+.contact-list-icon:focus {
+    fill: var(--accent-color);
+}
+
+
+
 /* Hero */
 
 .hero-title {
